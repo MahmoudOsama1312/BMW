@@ -1,0 +1,192 @@
+/* Editing the Body*/
+
+h2{ font-size: 25px; margin-top: 20px;}
+
+h1, h2,h3,h4,h5,h6 { font-family: 'PT Sans Narrow', sans-serif;}
+
+p, li, span,label , .label{ font-family: 'PT Sans Narrow', sans-serif; font-family: 'Roboto Slab', serif;}
+li{font-size: 12px;}
+:root {
+    font-family: 'Montserrat', sans-serif;
+    --bgmain: #F7F7F7;
+}
+/*---------------Navbar------------------------------*/
+.navbar-brand img{
+    height: 40px ;
+    width:40px;
+} 
+
+/* --Dropdown Menu-- ( Navbaaaar ) ----*/ 
+.navbar-nav .dropdown-menu >li >a:hover,
+.navbar-nav .dropdown-menu >li >a:focus {
+    background-color: rgb(74, 66, 66);
+    padding-left: 25px;
+    transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -ms-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+}
+
+.dropdown-menu{ --bs-dropdown-min-width: 14rem; padding:5px;}
+/**---------------------------------- Scrolling----------- */
+
+/*----------------------About Section---------------------------------*/
+.about-section img{
+    height: 250px;
+    width: 250px;
+}
+/*----------------------Features Section---------------------------------*/
+.features {background-color:#343a40; color: white;}
+
+.features-header h2 {word-spacing: 5px; letter-spacing: 6px; }
+
+.features-body span{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.features img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/*----------------------Payment Method Section-------------------------------------*/
+
+/*---------------------------------Team Section--------------------------------*/
+.team-section{
+    padding-bottom: 14px;
+    background-image: url(/images/6-TeamSection/background.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.team-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.team-header{
+letter-spacing: 5px;
+word-spacing: 10px;
+}
+/*------------------------------Subscribe Section-------------------------------------*/
+.subscribe{
+    background-color:rgb(44, 161, 220);
+    color: white;
+}
+.subscribe h1{
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+
+/*---------------------------Statistics Section---------------------------------------*/
+.stats{
+    background-image: url(/images/7-StatisticsSection/graph-chart-with-moving-up-arrow-stock-market-financial-investment-diagram-blue-background_56104-1814.avif);
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.data .h1{
+    letter-spacing: 3px;
+}
+
+.left-col{
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;
+}
+
+.left-col:hover {
+    color:  greenyellow;
+}
+/*-------------------- Most Commonly Selling Cars-------------------------------*/
+.progress{
+    height: 25px;
+    padding-left: 0px;
+}
+
+/*--------------------------------- Used Cars--------------------------*/
+
+/*-----------------------Contact Us Section----------------------------*/
+.contact-us{
+    color: white;
+    min-height: 300px;
+    background-image: url(/images/9-ContactUs/contact-us-background.webp);
+    background-position: center;
+  
+}
+.background-pic{
+    background-color: rgb(5, 5, 5,.3);
+    min-height: 300px;
+}
+
+.contact-us .container{
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.contact-us textarea{
+    width: 100%;
+margin-bottom: 7px;
+    height: 100px;
+}
+.contact-us form input {
+    width: 100%;
+}
+.text-butt{
+    margin-top:7px
+}
+.row .user{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.contact-us form{
+    margin-bottom: 7px;
+}
+/*----------------------------------Footer--------------------------------*/
+.footer{
+    background: #343a40;
+    color: white;
+}
+.sitemap-header , .article{
+    letter-spacing: 3px;
+}
+
+.footer h1{
+    letter-spacing: 4px;
+    color: rgb(44, 161, 220);
+}
+
+.three-columns li{
+    display: inline-block;
+    margin-left:30px ;
+}
+.social-list li{
+    display: inline-block;
+    margin-left:20px ;
+    opacity: .6;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.social-list li:hover{
+    opacity: 1;
+}
+
+/*-------------- Grouping----------*/
+.team-section ,.stats , .contact-us{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+

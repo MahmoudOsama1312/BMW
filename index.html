@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Section -->
+    <meta charset="UTF-8"> <!-- For Language -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- For Mobile Views -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- For Internet Explorer-->
+
+    <title>BootStrap Practice </title>
+    <!-------------the Navbar wasn`t working before using this  ( link + script )-------------------------------------------------->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--  Css Section  ( BootStrap File + My Files )-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/createdByMahmoud/style.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <!-- GOogle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--------------------------------------------------Start Of  NavBaaaar----------------------------------------------------->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark bg-gradient bg-opacity-25 navbar-dark fw-medium ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/1- Navbar Section/logo.jpg" class="rounded-2" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#latest-models">Latest Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#payment-methods">Payment Methods</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#statistics">Statistics</a></li>
+                            <li><a class="dropdown-item" href="#most-commonly-selling-cars">most commonly selling
+                                    cars</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#used-cars">Used Cars for Sale</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--------------------------------------------------End Of NavBaaar--------------------------------------------------------->
+
+    <!-----------------------------------------------Start of Carousel--------------------------------------------------------->
+    <div id="carouselExampleCaptions" class="carousel slide vh-100" data-bs-ride="carousel">
+        <!-- For AutoPlaying : use data-bs-ride -->
+        <div class="carousel-indicators vh-100 ">
+            <!-- El Button el sharta el ta7t , el batn2el beha mn wa7ed lel tani -->
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner vh-100">
+            <div class="carousel-item active">
+                <img src="images/2- Carousel Section/x.jpg" class="d-block w-100 img-responsive vh-100" alt="BMW x">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>BMW X</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/2- Carousel Section/xx.jpg" class="d-block w-100 img-responsive vh-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>BMW i8</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/2- Carousel Section/xxx.jpg" class="d-block w-100 img-responsive vh-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Luxury</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-----------------------------------------------End Of Carousel----------------------------------------------------------->
+
+    <!---------------------------------------------Start of About Section-------------------------------------------------------->
+    <div class="about-sec" id="about">
+        <div class="container-fluid py-3 about-section">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-md-4 col-lg-3 col-xs-12 ">
+                    <div class="pic d-flex justify-content-center align-items-center">
+                        <img class="img-responsive" src="images/3- About Section/logo.jpg" alt="BMW LOGO">
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12  d-flex justify-content-center align-items-center">
+                    <div>
+                        <h5> Bayerische Motoren Werke AG, abbreviated as BMW, is a German multinational
+                            manufacturer of luxury vehicles and motorcycles headquartered in Munich, Bavaria.
+                            The corporation was founded in 1916 as a manufacturer of aircraft engines,
+                            which it produced from 1917 until 1918 and again from 1933 to 1945.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------End Of About Section----------------------------------------------------------------->
+
+    <!--------------------------------------Start Of Features Section------------------------------------------------------------>
+    <div class="features py-3" id="latest-models">
+        <div class="container-fluid text-center">
+            <div class="features-header">
+                <h2 class="pb-2"> The Lastest Models</h2>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="features-body col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
+                    <div>
+                        <img class="img-responsive w-100  " src="images/4- Latest Models Section/needtoresize1.jpg">
+                        <p><span>BMW Luxury</span><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Accusantium
+                            facere blanditiis consectetur vitae amet porro fugiat dolor adipisci autem, tempora
+                            provident
+                            rem totam quae obcaecati labore nam error iure aspernatur.</p>
+                    </div>
+
+                </div>
+                <div class="features-body col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
+                    <div>
+                        <img class="img-responsive w-100 " src="images/4- Latest Models Section/needtoresize2.jpg">
+                        <p><span>BMW Luxury</span><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Accusantium
+                            facere blanditiis consectetur vitae amet porro fugiat dolor adipisci autem, tempora
+                            provident
+                            rem totam quae obcaecati labore nam error iure aspernatur.</p>
+                    </div>
+
+                </div>
+                <div class="features-body col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <img class="img-responsive w-100" src="images/4- Latest Models Section/x5.jpg">
+                        <p><span>BMW Luxury</span><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Accusantium
+                            facere blanditiis consectetur vitae amet porro fugiat dolor adipisci autem, tempora
+                            provident
+                            rem totam quae obcaecati labore nam error iure aspernatur.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--------------------------------------End Of Features Section------------------------------------------------------------>
+
+    <!--------------------------------------Start Of payment-methods Section------------------------------------------------------------>
+    <section id="payment-methods" class="py-3 text-center ">
+        <h1>Payment Methods</h1>
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-md-4 col-lg-4 col-sm-6">
+                    <div class="card  ">
+                        <img src="/images/5- Payment Section/cash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Cash</h5>
+                            <p class="card-text">Some content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">0 % Interest</li>
+                            <li class="list-group-item">Free Delivery</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-6">
+                    <div class="card">
+                        <img src="./images/5- Payment Section/monthly.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quihe bulk Up
+                                of the card's
+                                content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">10% Interest</li>
+                            <li class="list-group-item">Free Delivery</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-6">
+                    <div class="card">
+                        <img src="./images/5- Payment Section/easy.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick up the bulk
+                                of the card's
+                                content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------End Of Payment-method Section------------------------------------------------------------>
+
+    <!--------------------------------------Start Of Team Section------------------------------------------------------------>
+    <div class="team-section">
+        <div class="container text-center py-2">
+            <div class="team-header ">
+                <h2>BMW Founders</h2>
+            </div>
+            <div class="row py-3">
+                <div class="team col-lg-4 col-md-4 col-sm-12 col-xm-12 ">
+                    <img src="images/6-TeamSection/karl.jpg" class="team-img img-fluid">
+                    <h3 class="pt-2">Karl Rapp </h3>
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                    <p>Karl Friedrich Rapp was a German founder and owner of the Rapp Motorenwerke GmbH in Munich. He is
+                        acknowledged by BMW AG as an indirect founder of the company</p>
+                </div>
+
+                <div class="team col-lg-4 col-md-4 col-sm-12 col-xm-12 ">
+
+                    <img src="images/6-TeamSection/franz.jpg" class="team-img img-fluid">
+                    <h3 class="pt-2">Franz Josef Popp</h3>
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                    <p>Franz Josef Popp was one of three men responsible for the founding of BMW AG and the First
+                        General Director of BMW AG from 1922 to 1942</p>
+                </div>
+
+                <div class="team col-lg-4 col-md-4 col-sm-12 col-xm-12 ">
+
+                    <img src="images/6-TeamSection/camillo.jpg" class="team-img img-fluid">
+                    <h3 class="pt-2">Camillo Castiglioni </h3>
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                    <p>Camillo Castiglioni was an Italian-Austrian Jewish financier and banker, and was the wealthiest
+                        man in Central Europe during World War </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------End Of Team Section------------------------------------------------------------>
+    <!--------------------------------------Start Of Subscribe Section------------------------------------------------------------>
+    <div class="subscribe text-center">
+        <div class="container py-3">
+            <h1>BMW Updated News</h1>
+            <p> For Weekly Updates About BMW Cars</p>
+            <form class="form-inline py-3 position-relative">
+                <input class="form-control-sm w-50 text-center ms-5" placeholder="Write your E-mail" type="text">
+                <button class="btn btn-danger btn-md "> Subscribe </button>
+            </form>
+        </div>
+    </div>
+    <!--------------------------------------End Of Subscribe Section------------------------------------------------------------>
+    <!--------------------------------------Start Of Statistics Section----------------------------------------------------------->
+    <div class="stats text-center" id="statistics">
+        <div class="data">
+            <div class="container py-3 pb-5">
+                <h2 class="h1 ">Statistics </h2>
+                <div class="row py-3">
+                    <div class="col-lg-3 col-sm-6 col-md-3 col-lg-3 col-xm-6">
+                        <div class="left-col hvr-bounce-in">
+                            <li class="fa fa-users fa-5x"></li>
+                            <h2>2,150</h2>
+                            <span>Visitors</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-3 col-lg-3 col-xm-6">
+                        <div class="left-col hvr-bounce-in">
+                            <li class="fa fa-comments fa-5x"></li>
+                            <h2>35,020</h2>
+                            <span>Comments</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-3 col-lg-3 col-xm-6">
+                        <div class="left-col hvr-bounce-in">
+                            <li class="fa fa-car fa-5x"></li>
+                            <h2>1,350</h2>
+                            <span>Sold Cars</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-3 col-lg-3 col-xm-6">
+                        <div class="left-col hvr-bounce-in">
+                            <li class="fa fa-dollar fa-5x"></li>
+                            <h2>50,021,013</h2>
+                            <span>Profit</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <!--------------------------------------End Of Statistics Section------------------------------------------------------------>
+    <!--------------------------------------Start Of Selling Section------------------------------------------------------------>
+    <div class="selling text-center" id="most-commonly-selling-cars">
+        <div class="container py-3">
+            <h2 class="h1">Most Commonly Selling Cars</h2>
+            <div class="row py-3">
+                <div class="col-lg-5">
+                    <div class="row">
+                        <h5 class="col-lg-3">1 Series</h5>
+                        <div class="progress col-lg-9">
+                            <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated bg-danger"
+                                role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+                                aria-valuemax="100">
+                                20% </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="col-lg-3">3 Series</h5>
+                        <div class="progress col-lg-9">
+                            <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated bg-dark"
+                                role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0"
+                                aria-valuemax="100">
+                                30% </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="col-lg-3">5 Series </h5>
+                        <div class="progress col-lg-9">
+                            <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated bg-info"
+                                role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0"
+                                aria-valuemax="100">
+                                55% </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="col-lg-3">7 Series </h5>
+                        <div class="progress col-lg-9">
+                            <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated bg-primary"
+                                role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                                aria-valuemax="100">
+                                70% </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="col-lg-3">X Series</h5>
+                        <div class="progress col-lg-9">
+                            <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated bg-success"
+                                role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                                aria-valuemax="100">
+                                85% </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="col-lg-3">Z Series</h5>
+                        <div class="progress col-lg-9">
+                            <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated bg-danger"
+                                role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0"
+                                aria-valuemax="100">
+                                15% </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-lg-offset-1 right-side d-flex justify-content-center align-items-center">
+                    <h2 class="h1"> BMW Models </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    </hr>
+    <!--------------------------------------End Of Selling Section------------------------------------------------------------>
+    <!-------------------------------------Start Of Used Cars Prices Section------------------------------------------------------->
+
+    <section class="used-cars text-center" id="used-cars">
+        <div class="container py-3">
+            <h2 class="h1">Used Cars For Sale </h2>
+            <div class="row">
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/116.jpg">
+                        <div class="label">BMW 116i</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>50,000 $</b></li>
+                            <li>Model : 2020</li>
+                            <li>Motor : 1600 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/2s.webp">
+                        <div class="label">BMW 2 Series</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>30,000 $</b></li>
+                            <li>Model : 2018</li>
+                            <li>Motor : 1600 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/320.jpg">
+                        <div class="label">BMW X5</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>60,000 $</b></li>
+                            <li>Model : 2019</li>
+                            <li>Motor : 2000 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/330.jpg">
+                        <div class="label">BMW 330</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>35,300 $</b></li>
+                            <li>Model : 2019</li>
+                            <li>Motor : 2000 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/3s.jpg">
+                        <div class="label">BMW 3 Series</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>22,870 $</b></li>
+                            <li>Model : 2018</li>
+                            <li>Motor : 1600 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/3ss.jpg">
+                        <div class="label">BMW 3</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>60,000 $</b></li>
+                            <li>Model : 2020</li>
+                            <li>Motor : 2000 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/7s.webp">
+                        <div class="label">BMW 7 Series</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>80,000 $</b></li>
+                            <li>Model : 2020</li>
+                            <li>Motor : 3500 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/m8.jpeg">
+                        <div class="label">BMW M8</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>50,000 $</b></li>
+                            <li>Model : 2020</li>
+                            <li>Motor : 1600 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="face front">
+                        <img class="img-fluid" src="images/8-UsedCars/z4_2019.jpg">
+                        <div class="label">BMW Z4</div>
+                    </div>
+                    <div class="face back ">
+                        <ul class="list-unstyled">
+                            <li class="pricee">Price : <b>33,800 $</b></li>
+                            <li>Model : 2017</li>
+                            <li>Motor : 2000 CC</li>
+                            <li>Type Of Fuel : Banzene</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------End of Used Cars Prices Section--------------------------------------------------->
+    <!--------------------------------------Start Of Contact Us------------------------------------------------>
+    <section class="contact-us text-center " id="contact-us">
+        <div class="background-pic">
+            <div class="container">
+                <i class="fa fa-headphones fa-7x" aria-hidden="true"></i>
+
+
+                <h2 class="h1-responsive font-weight-bold text-center ">Contact us</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto ">Do you have any questions? Please do not hesitate to
+                    contact us directly. Our team will come back to you within
+                    a matter of hours to help you.</p>
+
+                <div class="row">
+                    <form role="form" class="col-lg-6">
+                        <div>
+                            <input type="text" class="form-control input-lg user" placeholder="UserName">
+                        </div>
+                        <div>
+                            <input type="email" class="form-control input-lg email" placeholder="E-mail">
+                        </div>
+                    </form>
+                    <div class="col-lg-6 text-butt">
+                        <textarea class="form-control" placeholder="Your Massage"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary btn-lg btn-block" type="button">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------End Of Contact Us-------------------------------------------------->
+    <!--------------------------------------Start Of Footer Section-------------------------------------------------->
+    <section class="footer text-center" id="footer">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="sitemap-header h1">SiteMap</h2>
+                    <ul class="list-unstyled three-columns">
+                        <li>Home</li>
+                        <li>service</li>
+                        <li>Contact us</li>
+                    </ul>
+                    <ul class="list-unstyled social-list">
+                        <li><img src="/images/10-Footer/1-Sitemap/4102606_applications_media_social_whatsapp_icon.png"
+                                alt="Whatsapp"></li>
+                        <li><img src="/images/10-Footer//1-Sitemap/4975304_contact_email_gmail_inbox_mail_icon.png"
+                                alt="G-mail"></li>
+                        <li><img src="/images/10-Footer/1-Sitemap/771366_facebook_logo_media_network_social_icon.png"
+                                alt="Facebook"></li>
+                        <li><img src="/images/10-Footer//1-Sitemap/986956_telegram_icon.png" alt="Telegram"></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 offset-md-2 ">
+                    <h2 class="article h1">Latest Articles</h2>
+                    <div class="row d-flex">
+                        <div class="media col-md-3 ">
+                            <img class="img-fluid" src="images/10-Footer/2-Lateset Article/7_logo.jpg" alt="">
+                        </div>
+                        <div class="media-body col-md-9">
+                            <h4> 7 Series</h4>
+                            <p> in 2023 , BMW will generate the best Luxury Car</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="media col-md-3">
+                            <img class="img-fluid" src="images/10-Footer/2-Lateset Article/x6.png" alt="">
+                        </div>
+                        <div class="media-body col-md-9">
+                            <h4> X Series</h4>
+                            <p> in 2030 , BMW will design the heighest SUV Car</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="media col-md-3">
+                            <img class="img-fluid" src="images/10-Footer/2-Lateset Article/m8.webp" alt="">
+                        </div>
+                        <div class="media-body col-md-9">
+                            <h4> M2 Series</h4>
+                            <p> in 2025 , BMW will generate the fastest Luxury Car</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--------------------------------------End Of Footer Section -------------------------------------------------->
+    </div>
+</body>
+
+</html>
