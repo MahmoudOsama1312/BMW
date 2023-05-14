@@ -2,15 +2,17 @@
 
 h2{ font-size: 25px; margin-top: 20px;}
 
-h1, h2,h3,h4,h5,h6 { font-family: 'PT Sans Narrow', sans-serif;}
+h1, h2,h3,h4,h5,h6 { font-family: sans-serif;}
 
-p, li, span,label , .label{ font-family: 'PT Sans Narrow', sans-serif; font-family: 'Roboto Slab', serif;}
+p, li, span,label , .label{ font-family:  sans-serif; }
 li{font-size: 12px;}
 :root {
-    font-family: 'Montserrat', sans-serif;
     --bgmain: #F7F7F7;
 }
 /*---------------Navbar------------------------------*/
+.nav-item{
+    font-size: 15px;
+}
 .navbar-brand img{
     height: 40px ;
     width:40px;
@@ -20,6 +22,7 @@ li{font-size: 12px;}
 .navbar-nav .dropdown-menu >li >a:hover,
 .navbar-nav .dropdown-menu >li >a:focus {
     background-color: rgb(74, 66, 66);
+    color: white;
     padding-left: 25px;
     transition: .5s ease-out;
     -webkit-transition: .5s ease-out;
@@ -55,13 +58,14 @@ li{font-size: 12px;}
     -o-border-radius: 5px;
 }
 /*----------------------Payment Method Section-------------------------------------*/
-
+.payment-methods h2 {
+    word-spacing: 5px;
+    letter-spacing: 6px;
+}
 /*---------------------------------Team Section--------------------------------*/
 .team-section{
     padding-bottom: 14px;
-    background-image: url(/images/6-TeamSection/background.jpg) ;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: #343a40;
     color: white;
 }
 .team-img{
@@ -69,6 +73,10 @@ li{font-size: 12px;}
     width: 100px;
     border-radius: 50%;
     border: 2px solid white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .team-header{
 letter-spacing: 5px;
@@ -86,9 +94,7 @@ word-spacing: 10px;
 
 /*---------------------------Statistics Section---------------------------------------*/
 .stats{
-    background-image: url(/images/7-StatisticsSection/graph-chart-with-moving-up-arrow-stock-market-financial-investment-diagram-blue-background_56104-1814.avif);
-    background-position: center;
-    background-attachment: fixed;
+background-color: #343a40;
     color: white;
 }
 
@@ -97,19 +103,25 @@ word-spacing: 10px;
 }
 
 .left-col{
-    -webkit-transition:.5s;
-    -moz-transition:.5s;
-    -o-transition:.5s;
+    -webkit-transition:;
+    -moz-transition:;
+    -o-transition:;
     transition:.5s;
+    -ms-transition:;
 }
 
 .left-col:hover {
     color:  greenyellow;
 }
 /*-------------------- Most Commonly Selling Cars-------------------------------*/
+.selling{
+    background-color:rgb(44, 161, 220) ;
+    color: white;
+}
 .progress{
     height: 25px;
     padding-left: 0px;
+
 }
 
 /*--------------------------------- Used Cars--------------------------*/
@@ -163,22 +175,17 @@ margin-bottom: 7px;
     letter-spacing: 4px;
     color: rgb(44, 161, 220);
 }
-
-.three-columns li{
-    display: inline-block;
-    margin-left:30px ;
+.fa-facebook-square {
+    color: blue;
+    font-size: 2em;
 }
-.social-list li{
-    display: inline-block;
-    margin-left:20px ;
-    opacity: .6;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+i.fab.fa-whatsapp-square {
+    color: green;
+    font-size: 2em;
 }
-.social-list li:hover{
-    opacity: 1;
+i.fab.fa-twitter-square {
+    color: rgba(17, 205, 234, 0.719);
+    font-size: 2em;
 }
 
 /*-------------- Grouping----------*/

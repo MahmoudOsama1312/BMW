@@ -29,12 +29,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto+Slab:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-Dziy5+2Y1pKSJv796an1gDzqYey4uTw6VXyBXD9+2p6mM3JIyJlW6w9sdCetQ7wG" crossorigin="anonymous">
 </head>
 
 <body>
     <!--------------------------------------------------Start Of  NavBaaaar----------------------------------------------------->
     <nav class="navbar navbar-expand-lg fixed-top bg-dark bg-gradient bg-opacity-25 navbar-dark fw-medium ">
-        <div class="container">
+        <div class="container-fluid px-3">
             <a class="navbar-brand" href="#"><img src="images/1- Navbar Section/logo.jpg" class="rounded-2" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -43,26 +45,26 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
-                    <li class="nav-item">
+                    <li class="nav-item px-1">
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-1">
                         <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-1">
                         <a class="nav-link" href="#latest-models">Latest Models</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-1">
                         <a class="nav-link" href="#payment-methods">Payment Methods</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown px-1">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             More
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#statistics">Statistics</a></li>
-                            <li><a class="dropdown-item" href="#most-commonly-selling-cars">most commonly selling
+                            <li><a class="dropdown-item" href="#most-commonly-selling-cars">most selling
                                     cars</a></li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -152,7 +154,7 @@
     <div class="features py-3" id="latest-models">
         <div class="container-fluid text-center">
             <div class="features-header">
-                <h2 class="pb-2"> The Lastest Models</h2>
+                <h2 class="pb-3"> The Lastest Models</h2>
             </div>
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="features-body col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
@@ -196,13 +198,13 @@
     <!--------------------------------------End Of Features Section------------------------------------------------------------>
 
     <!--------------------------------------Start Of payment-methods Section------------------------------------------------------------>
-    <section id="payment-methods" class="py-3 text-center ">
-        <h1>Payment Methods</h1>
+    <section id="payment-methods" class="py-3 text-center payment-methods ">
+        <h2 class="">Payment Methods</h2>
         <div class="container">
-            <div class="row py-2">
+            <div class="row py-3">
                 <div class="col-md-4 col-lg-4 col-sm-6">
                     <div class="card  ">
-                        <img src="/images/5- Payment Section/cash.jpg" class="card-img-top" alt="...">
+                        <img src="./images/5- Payment Section/monthly.png" class="card-img-top" alt="...">
                         <div class="card-body ">
                             <h5 class="card-title">Cash</h5>
                             <p class="card-text">Some content.</p>
@@ -255,10 +257,10 @@
     <!--------------------------------------End Of Payment-method Section------------------------------------------------------------>
 
     <!--------------------------------------Start Of Team Section------------------------------------------------------------>
-    <div class="team-section">
-        <div class="container text-center py-2">
+    <div class="team-section py-3">
+        <div class="container text-center ">
             <div class="team-header ">
-                <h2>BMW Founders</h2>
+                <h2 class="py-3">BMW Founders</h2>
             </div>
             <div class="row py-3">
                 <div class="team col-lg-4 col-md-4 col-sm-12 col-xm-12 ">
@@ -298,9 +300,9 @@
     </div>
     <!--------------------------------------End Of Team Section------------------------------------------------------------>
     <!--------------------------------------Start Of Subscribe Section------------------------------------------------------------>
-    <div class="subscribe text-center">
-        <div class="container py-3">
-            <h1>BMW Updated News</h1>
+    <div class="subscribe text-center py-3">
+        <div class="container">
+            <h2 class="py-3">BMW Updated News</h2>
             <p> For Weekly Updates About BMW Cars</p>
             <form class="form-inline py-3 position-relative">
                 <input class="form-control-sm w-50 text-center ms-5" placeholder="Write your E-mail" type="text">
@@ -310,10 +312,10 @@
     </div>
     <!--------------------------------------End Of Subscribe Section------------------------------------------------------------>
     <!--------------------------------------Start Of Statistics Section----------------------------------------------------------->
-    <div class="stats text-center" id="statistics">
+    <div class="stats text-center py-3" id="statistics">
         <div class="data">
             <div class="container py-3 pb-5">
-                <h2 class="h1 ">Statistics </h2>
+                <h2 class="py-3 h1 ">Statistics </h2>
                 <div class="row py-3">
                     <div class="col-lg-3 col-sm-6 col-md-3 col-lg-3 col-xm-6">
                         <div class="left-col hvr-bounce-in">
@@ -353,10 +355,10 @@
     </div>
     <!--------------------------------------End Of Statistics Section------------------------------------------------------------>
     <!--------------------------------------Start Of Selling Section------------------------------------------------------------>
-    <div class="selling text-center" id="most-commonly-selling-cars">
-        <div class="container py-3">
-            <h2 class="h1">Most Commonly Selling Cars</h2>
-            <div class="row py-3">
+    <div class="selling text-center py-3 pb-5" id="most-commonly-selling-cars">
+        <div class="container">
+            <h2 class=" py-3">Most Commonly Selling Cars</h2>
+            <div class="row ">
                 <div class="col-lg-5">
                     <div class="row">
                         <h5 class="col-lg-3">1 Series</h5>
@@ -419,14 +421,12 @@
             </div>
         </div>
     </div>
-    <hr>
-    </hr>
     <!--------------------------------------End Of Selling Section------------------------------------------------------------>
     <!-------------------------------------Start Of Used Cars Prices Section------------------------------------------------------->
 
-    <section class="used-cars text-center" id="used-cars">
-        <div class="container py-3">
-            <h2 class="h1">Used Cars For Sale </h2>
+    <section class="used-cars text-center py-3" id="used-cars">
+        <div class="container ">
+            <h2 class="py-3">Used Cars For Sale </h2>
             <div class="row">
                 <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="face front">
@@ -565,7 +565,7 @@
                 <i class="fa fa-headphones fa-7x" aria-hidden="true"></i>
 
 
-                <h2 class="h1-responsive font-weight-bold text-center ">Contact us</h2>
+                <h2 class="font-weight-bold text-center ">Contact us</h2>
                 <!--Section description-->
                 <p class="text-center w-responsive mx-auto ">Do you have any questions? Please do not hesitate to
                     contact us directly. Our team will come back to you within
@@ -600,21 +600,17 @@
         <div class="container py-3">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="sitemap-header h1">SiteMap</h2>
-                    <ul class="list-unstyled three-columns">
-                        <li>Home</li>
-                        <li>service</li>
-                        <li>Contact us</li>
-                    </ul>
-                    <ul class="list-unstyled social-list">
-                        <li><img src="/images/10-Footer/1-Sitemap/4102606_applications_media_social_whatsapp_icon.png"
-                                alt="Whatsapp"></li>
-                        <li><img src="/images/10-Footer//1-Sitemap/4975304_contact_email_gmail_inbox_mail_icon.png"
-                                alt="G-mail"></li>
-                        <li><img src="/images/10-Footer/1-Sitemap/771366_facebook_logo_media_network_social_icon.png"
-                                alt="Facebook"></li>
-                        <li><img src="/images/10-Footer//1-Sitemap/986956_telegram_icon.png" alt="Telegram"></li>
-                    </ul>
+                    <h2 class="sitemap-header">SiteMap</h2>
+                    <div class="three-columns">
+                        <span class="px-3">Home</span>
+                        <span class="px-3">Service</span>
+                        <span class="px-3">Contact us</span>
+                    </div>
+                    <div class="three-columns py-3">
+                        <span class="px-3"><i class="fab fa-whatsapp-square fa-2x"></i></span>
+                        <span class="px-3"><i class="fab fa-facebook-square fa-2x"></i></span>
+                        <span class="px-3"><i class="fab fa-twitter-square fa-2x"></i></span>
+                    </div>
                 </div>
                 <div class="col-md-6 offset-md-2 ">
                     <h2 class="article h1">Latest Articles</h2>
